@@ -15,7 +15,8 @@ MonoBehaviour:
   EpisodeNumber: 4
   Image: {fileID: 21300000, guid: 3695990554a6d53438675d9b0be006ba, type: 3}
   Dialogue: 
+  SoundEffect: {fileID: 0}
   HaveOptions: 1
-  Option1: "Prender todos em uma pris\xE3o espiritual"
-  Option2: Acabar com todos na porrada
+  Option1: "Selar todos em uma pris\xE3o espiritual eterna."
+  Option2: "Estou pronto para derrubar todos voc\xEAs!"
   IsFinalEpisode: 0

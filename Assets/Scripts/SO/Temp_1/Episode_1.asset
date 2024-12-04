@@ -16,6 +16,7 @@ MonoBehaviour:
   Image: {fileID: 21300000, guid: 1c667ee322e504442b9ebce46071abaf, type: 3}
   Dialogue: "Eu tentei evitar esse conflito mas parece que n\xE3o tem como adiar
     mais..."
+  SoundEffect: {fileID: 8300000, guid: 9a15db17fb59cb344a829de3cfe5ff64, type: 3}
   HaveOptions: 0
   Option1: 
   Option2: 

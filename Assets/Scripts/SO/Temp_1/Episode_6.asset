@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EpisodeNumber: 6
   Image: {fileID: 21300000, guid: 2a440aa1936c6c3419eb010c9e863724, type: 3}
-  Dialogue: final 2
+  Dialogue: "Chega de conversa! Agora eu vou acabar com isso \xE0 base de golpes!"
+  SoundEffect: {fileID: 8300000, guid: 5e7c43545df3a274f8c69d6fc5ba68a4, type: 3}
   HaveOptions: 0
   Option1: 
   Option2: 
