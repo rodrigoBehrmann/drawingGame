@@ -17,6 +17,6 @@ MonoBehaviour:
   Dialogue: 
   SoundEffect: {fileID: 0}
   HaveOptions: 1
-  Option1: "Selar todos em uma pris\xE3o espiritual eterna."
-  Option2: "Estou pronto para derrubar todos voc\xEAs!"
+  Option1: Seal them all in an eternal spiritual prison.
+  Option2: I am ready to take you all down!
   IsFinalEpisode: 0

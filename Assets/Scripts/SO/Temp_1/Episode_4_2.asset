@@ -15,7 +15,8 @@ MonoBehaviour:
   EpisodeNumber: 4
   Image: {fileID: 21300000, guid: 8e04600eb1bf70d498bab092a696a5f5, type: 3}
   Dialogue: 
+  SoundEffect: {fileID: 0}
   HaveOptions: 1
-  Option1: "Prender todos em uma pris\xE3o espiritual"
-  Option2: Acabar com todos na porrada
+  Option1: Trap them all in a spiritual prison.
+  Option2: Take them all down with a fight.
   IsFinalEpisode: 0

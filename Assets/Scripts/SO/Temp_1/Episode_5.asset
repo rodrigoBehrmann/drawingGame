@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EpisodeNumber: 5
   Image: {fileID: 21300000, guid: b0ee6e8dc9f0d1d4897a34a7e3e4aa28, type: 3}
-  Dialogue: "Chegou o fim da linha para voc\xEAs. A pris\xE3o espiritual os aguarda,
-    e l\xE1 permanecer\xE3o por toda a eternidade!"
+  Dialogue: The end of the line has come for you. The spiritual prison awaits, and
+    there you will remain for all eternity!
   SoundEffect: {fileID: 8300000, guid: 54ec7691382f32946a243203553e0670, type: 3}
   HaveOptions: 0
   Option1: 

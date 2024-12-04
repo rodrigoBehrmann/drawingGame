@@ -13,6 +13,7 @@ public class EpisodeHandle : MonoBehaviour
     [SerializeField] private AudioSource _audioSource;
 
     [Header("Forward Button - IF NO OPTIONS")]
+    [SerializeField] private GameObject _dialogueBackground;
     [SerializeField] private TextMeshProUGUI _dialogueText;
     [SerializeField] private Button _forwardButton;
     [SerializeField] private GameObject _nextEpisode;
@@ -57,19 +58,31 @@ public class EpisodeHandle : MonoBehaviour
     private void SetUpOptionButtons()
     {
         _option1Button.gameObject.SetActive(true);
+
         _option2Button.gameObject.SetActive(true);
+
         _option1ButtonText.text = _episode.Option1;
+
         _option2ButtonText.text = _episode.Option2;
+
         _forwardButton.gameObject.SetActive(false);
+
         _dialogueText.gameObject.SetActive(false);
+
+        _dialogueBackground.SetActive(false);
     }
 
     private void SetUpForwardButton()
     {
         _option1Button.gameObject.SetActive(false);
+
         _option2Button.gameObject.SetActive(false);
+
         _forwardButton.onClick.AddListener(OnForwardButtonClick);
+
         _dialogueText.text = _episode.Dialogue;
+
+        _dialogueBackground.SetActive(true);
     }
 
     private void SetOptionButtonListeners()
