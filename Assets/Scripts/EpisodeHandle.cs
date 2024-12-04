@@ -101,21 +101,27 @@ public class EpisodeHandle : MonoBehaviour
     private void OnForwardButtonClick()
     {
         _nextEpisode.SetActive(true);
+        
         _audioSource.Stop();
+
         gameObject.SetActive(false);
     }
 
     private void SwitchToOption1Episode()
     {
         gameObject.SetActive(false);
+
         _option1Episode.SetActive(true);
+
         _option2Episode.SetActive(false);
     }
 
     private void SwitchToOption2Episode()
     {
         gameObject.SetActive(false);
+
         _option1Episode.SetActive(false);
+
         _option2Episode.SetActive(true);
     }
 
